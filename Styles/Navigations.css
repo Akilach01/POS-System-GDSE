@@ -1,0 +1,36 @@
+body {
+    overflow-x: hidden;
+}
+
+/* NAVIGATIONS SECTION */
+.navigation{
+    position: fixed;
+    background-color: light-grey;
+    top: 0;
+    left:0;
+    right: 0;
+    z-index: 1000;
+}
+
+#ul{
+    list-style: none;
+    font-style:5px solid black;
+    text-align: end;
+    margin: 0;
+    padding-right: 5px;
+}
+
+
+@media all and (max-width: 768px) {
+    .d-flex {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    #ul {
+        text-align: end;
+        padding: 0;
+    }
+
+
+}

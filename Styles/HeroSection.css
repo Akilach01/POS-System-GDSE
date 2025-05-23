@@ -1,0 +1,59 @@
+/* HERO SECTION */
+.hero{
+    background-color:grey;
+    width: 100vw;
+    height: 90vh;
+     background-image: url(../images/point-of-sale-system-for.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.contHero{
+    width: 40vw;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: green;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+
+    transition-duration: 1.15s;
+}
+
+.contHero:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295);
+}
+
+#textCon{
+    width: 50vw;
+    height: fit-content;
+    text-align: center;
+    color: 10px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+@media all and (max-width : 500px) {
+    #textCon{
+        text-align: start;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .contHero {
+        width: 90vw;
+        padding: 20px;
+    }
+
+    #textCon {
+        width: 100%;
+        font-size: 20px solid black;
+    }
+}
